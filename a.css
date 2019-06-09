@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.resume{
+	position: relative;
+	border: 1px solid #E6E6E6;
+	height: 100vh;
+	margin: 8px;
+}
+.resume .resumeHead{
+	position: absolute;
+	color: #048BB3;
+	width: 100%;
+	margin: 26px;
+}
+.titleWrapper h1{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	font-size: 40px;
+}
+.resume .resumeHead .line{
+  border: 1px solid #048BB3;
+  width: 0.1px;
+  height: 36px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 173px;
+}
+.resumeHead h5{
+	height: 20px;
+	width: 180px;
+	font-size: 13px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 185px;
+}
+.resume .resumeHead h3{
+	width: 280px;
+  position: absolute;
+  margin-top: 22px;
+	margin-left: 185px;
+	font-size: 22px;
+}
+.icons{
+	position: absolute;
+	right: 100px;
+	margin-top: 20px; 
+}
+.icons .icon{
+	width: 30px; 
+	height: 30px;
+	background: #C39E67;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+.pachyteneLeft{
+	position: absolute;
+	width: 660px;
+	height: 26px;
+	background: #048BB3;
+	margin-top: 120px;
+}
+.delta1{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	border: 18px solid red;
+	border-top-color: #048BB3;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transform:rotate(45deg);
+	margin-left: 642px;
+	margin-top: 128px;
+}
+.delta2{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	border: 16px solid red;
+	border-top-color: red;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	transform:rotate(-45deg);
+	margin-left: 642px;
+	margin-top: 128px;
+}
+
+.pachyteneRight{
+	position: absolute;
+	width: 660px;
+	height: 22px;
+	background: #C39E67;
+	margin-top: 124px;
+}
